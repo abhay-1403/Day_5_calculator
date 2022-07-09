@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+<h2>My Calculator</h2>
+<form id="calc" action="">
+<div class="grid-container">
+  <input type="text" Name="display" class="grid-item1" id="result" disabled></input>
+  <input type=button value="1" class="grid-item" onclick="disp('1')">
+  <input type=button value="2" class="grid-item" OnClick="disp('2')">
+  <input type=button value="3" class="grid-item" OnClick="disp('3')">
+  <input type=button value="+" class="grid-item-symbol" OnClick="disp('+')">
+  <input type=button value="4" class="grid-item" OnClick="disp('4')">
+  <input type=button value="5" class="grid-item" OnClick="disp('5')">
+  <input type=button value="6" class="grid-item" OnClick="disp('6')">
+  <input type=button value="-" class="grid-item-symbol" OnClick="disp('-')">
+  <input type=button value="7" class="grid-item"OnClick="disp('7')">
+  <input type=button value="8" class="grid-item" OnClick="disp('8')">
+  <input type=button value="9" class="grid-item" OnClick="disp('9')">
+  <input type=button value="*" class="grid-item-symbol" OnClick="disp('*')">
+  <input type=button value="C" class="grid-item-symbol" OnClick="clr()">
+  <input type=button value="0" class="grid-item" OnClick="disp('0')">
+  <input type=button value="/" class="grid-item-symbol" OnClick="disp('/')">
+  <input type=button value="=" class="grid-item-symbol" OnClick="ansval()">
+  
+</div>
+</form>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
